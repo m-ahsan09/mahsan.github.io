@@ -2273,24 +2273,12 @@ button,
     padding-top: 0; }
 
 .publications article {
-    margin-bottom: 1px; /* Reduce space between articles */
-    padding-bottom: 1px; /* Reduce space inside articles */
-    line-height: 1.2; /* Adjust line height for compact spacing */
+    margin-bottom: 0 !important;
 }
-
-.publications hr {
-    margin: 1px 0; /* Reduce space around horizontal lines */
-}
-
-.publications p {
-    margin: 1px 0; /* Reduce vertical spacing */
-    line-height: 1; /* Adjust line height for compact spacing */
-}
-
 .publications article p {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1.1 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
 }
+
 
 
