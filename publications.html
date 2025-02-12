@@ -49,23 +49,8 @@
 									<p>Following is the list of published work.</p>
 									
 									<hr class="major" />
-									<div class="publications">
-										<article>
-											<h3>Paper Title 1</h3>
-											<p><strong>Authors:</strong> Muhammad Ahsan, Author 2, Author 3</p>
-											<p><strong>Journal/Conference:</strong> IEEE Transactions on Signal Processing, 2024</p>
-											<p><strong>Abstract:</strong> This paper discusses the use of advanced digital signal processing techniques...</p>
-											<a href="https://doi.org/10.XXXX/YYYY" target="_blank" class="button">Read More</a>
-										</article>
-										<hr />
-										<article>
-											<h4>Paper Title 3</h4>
-											<p><strong>Authors:</strong> Muhammad Ahsan, Author 2, Author 3</p>
-											<p><strong>Journal/Conference:</strong> Mechanical Systems and Signal Processing, 2022</p>
-											<p><strong>Abstract:</strong> This paper explores deep learning models for analyzing vibration-based fault diagnosis...</p>
-											<a href="https://doi.org/10.XXXX/YYYY" target="_blank" class="button">Read More</a>
-										</article>
-									</div>
+									<!-- Papers content will be loaded here -->
+									<div id="papers-content"></div>
 
 									<!--
 									<h2>Interdum sed dapibus</h2>
@@ -196,6 +181,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+		
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			// Load Papers Content
+			$(document).ready(function () {
+				$("#papers-content").load("papers.html");
+			});
+		</script>
 	</body>
 </html>
