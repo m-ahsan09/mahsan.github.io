@@ -2288,9 +2288,9 @@ button,
 }
 
 .publications article p {
-    display: inline-block; /* Ensures the elements are not behaving like block elements */
-    margin: 0px;
-    padding: 0px;
-    line-height: 1.1;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.1 !important;
 }
+
 
