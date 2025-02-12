@@ -2281,3 +2281,8 @@ button,
 .publications hr {
     margin: 1px 0; /* Reduce space around horizontal lines */
 }
+
+.publications p {
+    margin: 1px 0; /* Reduce vertical spacing */
+    line-height: 1.2; /* Adjust line height for compact spacing */
+}
