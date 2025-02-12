@@ -2273,10 +2273,10 @@ button,
     padding-top: 0; }
 
 .publications article {
-    margin-bottom: 1 !important;
+    margin-bottom: 1px !important;
 }
 .publications article p {
-    margin-bottom: 0 !important;
+    margin-bottom: 1px !important;
     margin-top: 0 !important;
 }
 
