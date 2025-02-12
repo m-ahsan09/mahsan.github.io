@@ -2288,7 +2288,9 @@ button,
 }
 
 .publications article p {
-    margin: 0; /* Remove extra spacing */
-    padding: 0; /* Ensure no extra padding */
-    line-height: 1.1; /* Adjust line height for compact spacing */
+    display: inline-block; /* Ensures the elements are not behaving like block elements */
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.1;
 }
+
