@@ -2284,5 +2284,5 @@ button,
 
 .publications p {
     margin: 1px 0; /* Reduce vertical spacing */
-    line-height: 1.2; /* Adjust line height for compact spacing */
+    line-height: 1; /* Adjust line height for compact spacing */
 }
