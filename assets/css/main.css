@@ -2273,11 +2273,11 @@ button,
     padding-top: 0; }
 
 .publications article {
-    margin-bottom: 5px; /* Reduce space between articles */
-    padding-bottom: 5px; /* Reduce space inside articles */
+    margin-bottom: 1px; /* Reduce space between articles */
+    padding-bottom: 1px; /* Reduce space inside articles */
     line-height: 1.2; /* Adjust line height for compact spacing */
 }
 
 .publications hr {
-    margin: 5px 0; /* Reduce space around horizontal lines */
+    margin: 1px 0; /* Reduce space around horizontal lines */
 }
