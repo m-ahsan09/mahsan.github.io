@@ -2286,3 +2286,9 @@ button,
     margin: 1px 0; /* Reduce vertical spacing */
     line-height: 1; /* Adjust line height for compact spacing */
 }
+
+.publications article p {
+    margin: 0; /* Remove extra spacing */
+    padding: 0; /* Ensure no extra padding */
+    line-height: 1.1; /* Adjust line height for compact spacing */
+}
